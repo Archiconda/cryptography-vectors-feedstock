@@ -1,4 +1,5 @@
-{% set version = "2.4.2" %}
+#{% set version = "2.4.2" %}
+{% set version = "2.3.1" %}
 
 package:
   name: cryptography-vectors
@@ -6,10 +7,12 @@ package:
 
 source:
   url: https://pypi.io/packages/source/c/cryptography_vectors/cryptography_vectors-{{ version }}.tar.gz
-  sha256: 91d365350a2d9d5376e4efdba687c7258e31a7c8c0deefbe4f674bf0a1e87804
+  # sha256: 91d365350a2d9d5376e4efdba687c7258e31a7c8c0deefbe4f674bf0a1e87804
+  # sha256: bf4d9b61dce69c49e830950aa36fad194706463b0b6dfe81425b9e0bc6644d46
 
 build:
   number: 1000
+  noarch: python
   script: "{{ PYTHON }} -m pip install . --no-deps --ignore-installed -vv"
 
 requirements:
