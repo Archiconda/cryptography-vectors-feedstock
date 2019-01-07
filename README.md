@@ -16,8 +16,10 @@ Summary: Test vectors for the cryptography package.
 Current build status
 ====================
 
-All platforms:
-[![noarch](https://img.shields.io/circleci/project/github/conda-forge/cryptography-vectors-feedstock/master.svg?label=noarch)](https://circleci.com/gh/conda-forge/cryptography-vectors-feedstock)
+[![Linux](https://img.shields.io/circleci/project/github/conda-forge/cryptography-vectors-feedstock/master.svg?label=Linux)](https://circleci.com/gh/conda-forge/cryptography-vectors-feedstock)
+[![OSX](https://img.shields.io/travis/conda-forge/cryptography-vectors-feedstock/master.svg?label=macOS)](https://travis-ci.org/conda-forge/cryptography-vectors-feedstock)
+[![Windows](https://img.shields.io/appveyor/ci/conda-forge/cryptography-vectors-feedstock/master.svg?label=Windows)](https://ci.appveyor.com/project/conda-forge/cryptography-vectors-feedstock/branch/master)
+[![linux-aarch64](https://img.shields.io/shippable/5c329eef87b5930700c32c42/aarch64.svg?label=linux-aarch64)](https://app.shippable.com/github/Archiconda/cryptography-vectors-feedstock)
 
 Current release info
 ====================
